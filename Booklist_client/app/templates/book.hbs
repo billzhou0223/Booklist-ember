@@ -1,0 +1,43 @@
+<header>
+	<h1 id = "title">My Books</h1>
+	{{#link-to 'index' class = "btn-left"}}◀ Back{{/link-to}}
+	{{#if isNotEditing}}
+		{{#link-to 'book.edit' class = "btn-right"}}Edit{{/link-to}}
+	{{else}}
+		<a {{action 'save'}} class = "btn-right">Save</a>
+	{{/if}}
+	{{#unless isNewBook}}
+		<a {{action 'delete'}} class = "btn-delete">Delete</a>
+	{{/unless}}
+</header>
+
+<ul id = "book" class = {{if isNotEditing "isNotEditing"}}>
+	<li>
+		<p>Title</p>
+		{{input type = "text" value = model.title disabled = isNotEditing}}
+	</li>
+	<li>
+		<p>Author</p>
+		{{input type = "text" value = model.author disabled = isNotEditing}}
+	</li>
+	<li>
+		<p>Publication Year</p>
+		{{input type = "number" value = model.pubYear disabled = isNotEditing}}
+	</li>
+	<li>
+		<p>Purchase Date</p>
+		{{input type = "date" value = model.purchaseDate disabled = isNotEditing}}
+	</li>
+	<li>
+		<p>Rating</p>
+		{{star-rating rating = model.rating maxStars = 5 isNotEditing = isNotEditing}}
+	</li>
+	<li>
+		<p>Did you read?</p>
+		{{input type = "checkbox" checked = model.wasRead disabled = isNotEditing}}
+	</li>
+	<li>
+		<p>Note</p>
+		{{textarea value = model.note disabled = isNotEditing}}
+	</li>
+</ul>

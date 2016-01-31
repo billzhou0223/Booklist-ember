@@ -1,0 +1,72 @@
+<header>
+	<h1 id = "title">My Books</h1>
+	<a {{action 'toggleRefinement'}} class = "btn-left">
+		{{#if showRefinement}}
+			Clear
+    {{else}}
+			Refine
+		{{/if}}
+	</a>
+	{{#link-to 'new' class = "btn-right"}}New{{/link-to}}
+</header>
+
+{{#if showRefinement}}
+	<div id = "refine">
+		<div id = "row-one">
+			<div id = "sort" class = "inline-block">
+				<label>Sort By:</label>
+				{{!-- {{drop-down content = sortOptions class = "inline-block" action = "selectSortOption"}} --}}
+				{{drop-down content = sortOptions selectedValue = selectedSortOption  class = "inline-block"}}
+			</div>
+			{{#if showOrder}}
+				<div id = "order" class = "inline-block">
+					<label>Order By</label>
+					{{!-- {{drop-down content = orderOptions class = "inline-block" action = "selectOrderOption"}} --}}
+					{{drop-down content = orderOptions selectedValue = selectedOrderOption class = "inline-block"}}
+				</div>
+			{{/if}}
+
+			<button {{action 'refineAction'}} disabled = {{refineButtonDisabled}} class = "refine-button">Refine</button>
+		</div>
+		<div id = "row-two">
+			<div id = "filter" class = "inline-block">
+				<label>Filter By:</label>
+				{{!-- {{drop-down content = filterOptions class = "inline-block" action = "selectFilterOption"}} --}}
+				{{drop-down content = filterOptions selectedValue = selectedFilterOption class = "inline-block"}}
+			</div>
+			{{#if showFilterValue}}
+				<div id = "filter-value" class = "inline-block">
+					{{input type = "text" value = selectedFilterValue placeholder = "Value"}}
+				</div>
+			{{/if}}
+		</div>
+	</div>	
+{{/if}}
+
+<ul id = "book-list">
+	{{#each model as |book|}}
+		{{#link-to 'book' book}}
+			<li>
+				<p>
+					<span class = "title">
+						{{book.title}}
+						{{#if book.pubYear}}
+							- {{book.pubYearFormat}}
+						{{/if}}
+					</span>
+					<br>
+					{{book.author}}
+					{{star-rating rating = book.rating maxStars = 5 isNotEditing = true}}
+				</p>
+				<p>
+					{{#if book.wasRead}}
+						<span class = "read">Read</span>
+					{{else}}
+						<span class = "unread">Unread</span>
+					{{/if}}
+				</p>
+			</li>
+		{{/link-to}}
+	{{/each}}
+</ul>
+

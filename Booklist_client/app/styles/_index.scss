@@ -1,0 +1,36 @@
+#book-list {
+	// position: absolute;
+	// top: 45px;
+	width: 100%;
+	font-size: 13px;
+
+	li {
+		position: relative;
+		height: 60px;
+		border-bottom: 1px solid #aaa;
+		padding-left: 5px;
+
+		p {
+			&:last-child {
+				position: absolute;
+				top: 5px;
+				right: 8px;
+			}
+
+			span {
+				&.title {
+					font-size: 18px;
+				}
+
+				&.read {
+					color: green;
+				}
+
+				&.unread {
+					color: red;
+				}
+			}
+		}
+	}
+}
+
