@@ -26,5 +26,6 @@ www.google.com
     ```
     
 ###Functionality###
-- 
+- Homepage
+![alt text]( "Homepage")
 
