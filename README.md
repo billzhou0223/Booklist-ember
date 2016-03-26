@@ -27,5 +27,5 @@ www.google.com
     
 ###Functionality###
 - Homepage
-![alt text]( "Homepage")
+![alt text](https://github.com/billzhou0223/Booklist-ember/blob/master/demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png "Homepage")
 
