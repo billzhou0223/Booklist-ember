@@ -21,10 +21,10 @@ export default Ember.Object.extend({
 	// 	}
 	// }),
 
-	pubYearFormat: Ember.computed('pubYear', function() {
-		var pubYear = this.get('pubYear');
-		return new Date(pubYear).getUTCFullYear();
-	}),
+	// pubYearFormat: Ember.computed('pubYear', function() {
+	// 	var pubYear = this.get('pubYear');
+	// 	return new Date(pubYear).getUTCFullYear();
+	// }),
 
 	isEmpty: Ember.computed('title', function() {
 		return this.get('title') ? false : true;
