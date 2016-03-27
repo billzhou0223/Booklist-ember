@@ -28,5 +28,5 @@ www.google.com
 ###Functionality###
 - Homepage
 
-<img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
+<img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px" align="center"/>
 
