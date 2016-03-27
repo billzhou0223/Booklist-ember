@@ -25,7 +25,8 @@ alt="Demo video" width="300" height="180" border="10"/></a>
     ```
     Ember server --proxy http://localhost:3000
     ```
-    
+5. Access http://localhost:4200 in browser to launch the app.
+
 ###Functionality###
 - Homepage (Picture 1)
 - Click `Refine` to sort and filter the list  (Picture 2)
