@@ -16,7 +16,7 @@ www.google.com
 
     Go to node app directory, run following code.
     ```
-    node bin/www
+    nodemon bin/www
     ```
 4. Run Ember app.
 
