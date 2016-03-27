@@ -27,7 +27,11 @@ www.google.com
     
 ###Functionality###
 - Homepage
-- Use "refine" to sort and filter the list
+- Click `Refine` to sort and filter the list
+- Click on a book in the list to go to `detail page`
+- Click `Edit` to edit a book
+- Click `New` to add a new book
+- Click `Delete` to delete a book from list
 
 <img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
 <img src="demo-imgs/Screen Shot 2016-03-26 at 4.21.24 PM.png" alt="Homepage" width="305px"/>
