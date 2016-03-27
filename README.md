@@ -3,7 +3,7 @@ A web app developed in Ember.js, node.js(Express), mongoDB.
 
 ###Demo Video###
 <a href="https://youtu.be/gsAp72-Wet0" target="_blank"><img src="demo-imgs/Screen Shot 2016-03-26 at 8.21.24 PM.png" 
-alt="Demo video" width="300" height="180" border="10" /></a>
+alt="Demo video" width="300" height="180" border="10"/></a>
 
 ###Installation###
 1. Have [Node](https://nodejs.org/en/), [Ember-cli](http://ember-cli.com/user-guide/), [MongoDB](https://docs.mongodb.org/manual/installation/) installed on machine.
@@ -35,7 +35,3 @@ alt="Demo video" width="300" height="180" border="10" /></a>
 - Click `Delete` to delete a book from list
 
 ![](demo-imgs/Screen Shot 2016-03-26 at 6.50.13 PM.png)
-
-
-
-
