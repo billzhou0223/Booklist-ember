@@ -26,8 +26,8 @@ www.google.com
     ```
     
 ###Functionality###
-- Homepage  - Use "refine" to sort and filter the list
+&#8226Homepage  - Use "refine" to sort and filter the list
 
 <img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
-<img src="demo-imgs/Screen Shot 2016-03-26 at 4.21.24 PM.png" alt="Homepage" width="310px"/>
+<img src="demo-imgs/Screen Shot 2016-03-26 at 4.21.24 PM.png" alt="Homepage" width="305px"/>
 
