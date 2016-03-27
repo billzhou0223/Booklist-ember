@@ -2,10 +2,8 @@
 A web app developed in Ember.js, node.js(Express), mongoDB. 
 
 ###Demo Video###
-[Click me](https://youtu.be/gsAp72-Wet0)
-
-<a href="https://youtu.be/gsAp72-Wet0" target="_blank"><img src="https://i.ytimg.com/vi/gsAp72-Wet0/1.jpg?time=1459048578522" 
-alt="Demo video" width="240" height="180" border="10" /></a>
+<a href="https://youtu.be/gsAp72-Wet0" target="_blank"><img src="demo-imgs/Screen Shot 2016-03-26 at 8.21.24 PM.png" 
+alt="Demo video" width="300" height="180" border="10" /></a>
 
 ###Installation###
 1. Have [Node](https://nodejs.org/en/), [Ember-cli](http://ember-cli.com/user-guide/), [MongoDB](https://docs.mongodb.org/manual/installation/) installed on machine.
