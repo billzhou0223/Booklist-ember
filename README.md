@@ -26,11 +26,11 @@ www.google.com
     ```
     
 ###Functionality###
-- Homepage
-- Click `Refine` to sort and filter the list
-- Click on a book in the list to go to `detail page`
-- Click `Edit` to edit a book
-- Click `New` to add a new book
+- Homepage (Picture 1)
+- Click `Refine` to sort and filter the list  (Picture 2)
+- Click on a book in the list to go to `detail page`  (Picture 3)
+- Click `Edit` to edit a book  (Picture 4)
+- Click `New` to add a new book   (Picture 5)
 - Click `Delete` to delete a book from list
 
 ![](demo-imgs/Screen Shot 2016-03-26 at 6.50.13 PM.png)
