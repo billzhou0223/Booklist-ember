@@ -35,7 +35,7 @@ www.google.com
 
 <ul>
     <li style = "float:left">
-        <p>Picture 1</p>
+        <div>Picture 1</div>
         <img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
     </li>
     <li style = "float:left">
