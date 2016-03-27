@@ -1,4 +1,4 @@
-# Booklist-ember
+# Booklist app
 A web app developed in Ember.js, node.js(Express), mongoDB. 
 
 ###Demo Video###
