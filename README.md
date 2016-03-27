@@ -33,14 +33,7 @@ www.google.com
 - Click `New` to add a new book
 - Click `Delete` to delete a book from list
 
-<div>
-    <img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
-    <p>Picture 1</p>
-</div>
-<div>
-    <img src="demo-imgs/Screen Shot 2016-03-26 at 4.21.24 PM.png" alt="Homepage" width="305px"/>
-    <p>Picture 2</p>
-</div>
+![](demo-imgs/Screen Shot 2016-03-26 at 6.50.13 PM.png)
 
 
 
