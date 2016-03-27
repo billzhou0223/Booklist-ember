@@ -33,12 +33,19 @@ www.google.com
 - Click `New` to add a new book
 - Click `Delete` to delete a book from list
 
-<ul style = "list-style: none; text-decorate: none">
-    <li style = "float:left; list-style: none; text-decorate: none">
+<style>
+    ul {
+        list-style: none;
+        text-decorate: none;
+    }
+</style>
+
+<ul>
+    <li>
         <p>Picture 1</p>
         <img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
     </li>
-    <li style = "float:left; list-style: none; text-decorate: none">
+    <li>
         <p>Picture 2</p>
         <img src="demo-imgs/Screen Shot 2016-03-26 at 4.21.24 PM.png" alt="Homepage" width="305px"/>
     </li>
