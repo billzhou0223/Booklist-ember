@@ -33,21 +33,14 @@ www.google.com
 - Click `New` to add a new book
 - Click `Delete` to delete a book from list
 
-<style>
-    ul {
-        list-style: none;
-        text-decorate: none;
-    }
-</style>
-
 <ul>
     <li>
-        <p>Picture 1</p>
         <img src="demo-imgs/Screen%20Shot%202016-03-26%20at%204.14.50%20PM.png" alt="Homepage" width="300px"/>
+        <p>Picture 1</p>
     </li>
     <li>
-        <p>Picture 2</p>
         <img src="demo-imgs/Screen Shot 2016-03-26 at 4.21.24 PM.png" alt="Homepage" width="305px"/>
+        <p>Picture 2</p>
     </li>
 </ul>
 
