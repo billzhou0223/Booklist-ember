@@ -2,7 +2,7 @@
 A web app developed in Ember.js, node.js(Express), mongoDB. 
 
 <p align = "center">
-<a href="https://youtu.be/nsnLG63JClw" target="_blank"><img src="demo-imgs/Screen Shot 2016-03-26 at 8.21.24 PM.png" 
+<a href="https://youtu.be/Pa1X9Cdpzgs" target="_blank"><img src="demo-imgs/Screen Shot 2016-03-26 at 8.21.24 PM.png" 
 alt="Demo video" width="300" height="180" border="10"/></a>
 </p>
 
